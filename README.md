@@ -1,7 +1,7 @@
 # Emotion-Classification
 
-## models for text-based classification
-1. TextCnn https://github.com/delldu/TextCNN
+## Model for text-based classification
+### TextCnn https://github.com/delldu/TextCNN
 
 Here is the replication of the model, here are the operations of the model:
 * **Embedding**: Embeds a batch of text of shape (N, L) to (N, L, D), where N is batch size, L is maximum length of the batch, D is the embedding dimension. 
