@@ -18,12 +18,12 @@ Accuracy, F-score, Precision and Recall has been reported for the different expe
 
 Models | Accuracy | F1 | Precision | Recall
 ---|---|---|---|---
-RF | **59.6** | **59.0** | 60.8 | **59.5**
+RF | 59.4 | 58.6 | 60.4 | **59.2**
 XGB | 57.8 | 57.0 | 58.2 | 57.7
-SVM | 36.5 | 31.3 | 41.6 | 30.3
-MLP | 36.5 | 31.3 | 41.6 | 30.3
-LSTM |  |  |  | 
-E1 | 59.2 | 58.0 | **60.9** | 58.4
+SVM | 38.5 | 34.0 | 40.7 | 33.8
+MLP | 38.5 | 34.0 | 40.7 | 33.8
+LSTM | 38.5 | 34.0 | 40.7 | 33.8
+E1 | **59.9** | **58.8** | **61.7** | **59.2**
 
 E1: Ensemble (RF + XGB + MLP)
 
