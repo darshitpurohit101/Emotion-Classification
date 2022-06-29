@@ -25,9 +25,10 @@ Let's note that this model works for variable text lengths! The idea to embed th
 
 The minimum length of text expected by the model is the size of the smallest kernel size of the model.
 
-##Steps to follow 
+## Pipeline 
 1. gathering dataset (IEMOCAP)
 2. extracting utterances and labels
+    1. filltering utterances with no annotation
 3. preprocessing the data (with punctuation)
     1. Tokenize the data (string_to_sequence)
     2. Creating counter type for the tokens for encoding
@@ -38,3 +39,4 @@ The minimum length of text expected by the model is the size of the smallest ker
 5. create the model object and optimizer
 6. train the model with train_iter
 7. Test and evaluation
+
