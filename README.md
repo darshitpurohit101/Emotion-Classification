@@ -40,3 +40,9 @@ The minimum length of text expected by the model is the size of the smallest ker
 6. train the model with train_iter
 7. Test and evaluation
 
+## Step of Implementation
+You can download the IEMCAP dataset and run extrac_label to get the label and then start with preproecssing.
+1. Download the train.pkl and test.pkl files
+2. Run preparing_Data.ipynb to create pickle file
+3. Model.ipynb loads the pickel file, preprocess it and train the model
+
